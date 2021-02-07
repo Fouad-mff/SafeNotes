@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item android:id="@+id/menu_save"
+          android:icon="@drawable/save"
+          android:showAsAction="ifRoom|withText" android:title="Enreg."/>    
+    <item android:id="@+id/menu_delete"
+          android:icon="@drawable/delete"
+          android:showAsAction="ifRoom|withText" android:title="Supp."/>
+    <item android:id="@+id/copy" android:orderInCategory="1" android:title="Copier"></item>
+    <item android:id="@+id/share" android:orderInCategory="2" android:menuCategory="alternative" android:title="Partager le texte..."></item>
+    <item android:id="@+id/screen_on" android:orderInCategory="3" android:menuCategory="alternative" android:title="Ecran toujours actif" android:checkable="true"></item>
+    <item android:id="@+id/fix_orientation" android:checkable="true" android:orderInCategory="4" android:title="Fixer la rotation de l'écran" android:menuCategory="alternative"></item>
+</menu>

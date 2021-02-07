@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    style="@style/AppBaseTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstLogIn" >
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="237dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="10dp"
+        android:layout_x="44dp"
+        android:layout_y="206dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="237dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="10dp"
+        android:layout_x="44dp"
+        android:layout_y="278dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="9dp"
+        android:layout_x="60dp"
+        android:layout_y="320dp"
+        android:gravity="center"
+        android:text="Le mot de passe doit comporter au moins 8 caractères, 1 chiffre, 1 miniscule, 1 majuscule et 1 symbole."
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText3"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_x="16dp"
+        android:layout_y="320dp"
+        android:src="@drawable/info" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textview"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_x="33dp"
+        android:layout_y="102dp"
+        android:text="Nom d&apos;utilisateur :"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="10dp"
+        android:layout_x="33dp"
+        android:layout_y="245dp"
+        android:text="Répétez le mot de passe :"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="10dp"
+        android:layout_x="33dp"
+        android:layout_y="173dp"
+        android:text="Mot de passe :"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:gravity="center"
+        android:text="  Bienvenue dans notre application!  "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/blue0"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="237dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="12sp" >
+        <requestFocus/>
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="276dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/textview"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:text="Veuillez entrer SVP un nouveau nom d&apos;utilisateur et un nouveau mot de passe."
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Valider"
+        android:textSize="22sp" />
+
+</RelativeLayout>

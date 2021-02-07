@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/reset" android:menuCategory="alternative" android:title="Réinitialiser l'application" android:icon="@drawable/reset" android:orderInCategory="1"></item><item android:id="@+id/select" android:title="Séléctionner" android:menuCategory="alternative" android:orderInCategory="2" android:icon="@drawable/select"></item><item android:id="@+id/propos" android:title="À propos" android:orderInCategory="3" android:menuCategory="alternative" android:icon="@drawable/propos"></item><item android:id="@+id/exit" android:title="Quitter" android:menuCategory="alternative" android:orderInCategory="4" android:icon="@drawable/exit"></item>
+    
+
+</menu>

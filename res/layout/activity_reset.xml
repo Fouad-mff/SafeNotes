@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".NoteList$1" >
+
+    <TextView
+        android:id="@+id/textcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:text="Confirmez d&apos;abord votre identité!" />
+
+    <EditText
+        android:id="@+id/editusr"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/textusr"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textcon"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="24dp"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:textSize="14sp" >
+
+        <requestFocus/>
+    </EditText>
+
+    <TextView
+        android:id="@+id/textusr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textcon"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="7dp"
+        android:text="Nom d&apos;utilisateur :" />
+
+    <TextView
+        android:id="@+id/textpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textusr"
+        android:layout_below="@+id/editusr"
+        android:layout_marginTop="7dp"
+        android:text="Mot de passe :" />
+
+    <EditText
+        android:id="@+id/editpass"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/editusr"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textpass"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="3dp"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_alignLeft="@+id/editpass"
+        android:layout_below="@+id/editpass" />
+
+</RelativeLayout>
